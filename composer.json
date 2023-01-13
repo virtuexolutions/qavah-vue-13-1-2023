@@ -1,0 +1,6 @@
+{
+    "require": {
+        "omnipay/omnipay": "^3.2",
+        "twilio/sdk": "^6.43"
+    }
+}

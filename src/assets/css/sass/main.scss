@@ -1,0 +1,129 @@
+@import "./_mixins.scss";
+@import "./_piaf.style.scss";
+@import "./_plugins.scss";
+
+
+
+/** your custom css code **/
+/* 
+html {
+    background-color: $theme-color-1 !important;
+}
+*/ 
+
+.rounded-lg {
+    border-radius: 1.2rem !important;
+}
+
+
+// OTP Field Classes
+@media only screen and (max-width:600px){
+  .otp-fields-container {
+    list-style-type: none;
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .otp-field {
+    border-color: #93652b !important;
+    outline:#93652b !important;
+    width:50px
+  }
+
+  .otp-field input{
+    width: 50px !important;
+    border-radius:15px;
+    font-size: 1rem;
+    border-color: #93652b !important;
+    outline:#93652b !important;
+    padding: 15px !important;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .otp-fields-container {
+    list-style-type: none;
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .otp-field {
+    border-color: #93652b !important;
+    outline:#93652b !important;
+  }
+
+  .otp-field input{
+    width:100px !important;
+    border-radius:15px;
+    font-size: 4rem;
+    border-color: #93652b !important;
+    outline:#93652b !important;
+    padding: 15px !important;
+  }
+}
+
+
+
+
+
+  .carousel-indicators {
+    top:0;
+  }
+
+
+  .carousel {
+    height: 70vh;
+  }
+
+
+  .swal2-icon {
+    border: none;
+  }
+
+  .swal2-confirm {
+    user-select: none;
+    background-color: #93652b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: all ease 0.5s;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.3rem;
+    margin-right: 0.4rem
+  }
+
+  .swal2-confirm:hover {
+    background-color: #aa7534;
+  }
+
+
+  .swal2-deny {
+    user-select: none;
+    border: 1px #93652b solid;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #93652b;
+    transition: all ease 0.5s;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.3rem;
+  }
+
+ 
+
+  .dropzone .dz-preview.dz-image-preview {
+    width: 90%;
+  }

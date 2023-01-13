@@ -1,0 +1,11 @@
+{
+  "register_page": {
+    "create_account": "Crear una cuenta"
+  },
+  "login_page": {
+    "welcome_back": "Bienvenido de nuevo",
+    "Login_to_your_account": "Ingrese a su cuenta",
+    "login_btn": "acceso",
+    "forgot_password": "Has olvidado tu contraseña"
+  }
+}
